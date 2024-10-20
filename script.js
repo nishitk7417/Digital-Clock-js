@@ -40,8 +40,8 @@ function updateClock(){
     month.innerHTML = monthName;
     date.innerHTML = dat;
 
-    setInterval(()=>{
-        updateClock();
-    }, 1000);
 } 
-updateClock();
+document.addEventListener("DOMContentLoaded", function() {
+    updateClock();
+    setInterval(updateClock, 1000);
+});
