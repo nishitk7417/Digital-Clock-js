@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(/Assets/beautiful-mountain-view-pictures-yyq6y6jpwnt15oj0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid ;
+    padding: 15px;
+    margin-bottom: 20rem;
+    background: rgba(255, 255, 255, 0.022);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(255, 255, 255, 0.049);
+}
+.container{
+    font-size: 7rem;
+    color: white;
+}
+.hour{
+    color: orange;
+}
+#ampm{
+    font-size: 2rem;
+}
+.sec-container{
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    opacity: 0.9;
+}
